@@ -1,0 +1,37 @@
+.footer{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.logo-footer{
+  max-width: 200px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+div{
+  display: flex;
+  flex-direction: row;
+}
+footer div a {
+  color: white;
+  margin-left: 15px;
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+footer div a:hover{
+  color: gray;
+}
+.store_links{
+  margin-bottom: 10px;
+}
+.copyright{
+  color: gray;
+  font-size: 15px;
+
+}

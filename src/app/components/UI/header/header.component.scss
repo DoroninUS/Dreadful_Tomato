@@ -1,0 +1,36 @@
+mat-toolbar{
+  background-color: #000000;
+  color: #fff;
+  padding: 0 90px;
+}
+.example-spacer {
+  flex: 1 1 ;
+}
+.logo_header{
+  max-width: 250px;
+  width: 100%
+}
+.login_button{
+  margin-right: 10px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  max-width: 120px;
+  padding: 12px;
+  width: 100%;
+  border: white 1px solid;
+  border-top: none;
+  border-bottom: none;
+  cursor: pointer;
+}
+.login_button span{
+  font-size: 15px;
+}
+.mat-fab{
+  max-width: 200px;
+  width: 100%;
+  height: 30px;
+  background-color: red;
+}
